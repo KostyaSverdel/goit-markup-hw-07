@@ -1,0 +1,23 @@
+.conteiner {
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.header-conteiner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.board-knopka {
+    width: 700px;
+}
+.klient {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+.social-footer {
+    display: flex;
+    align-items: baseline;
+}
