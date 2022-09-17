@@ -1,8 +1,5 @@
-.form-footer {
-    margin-left: auto;
-}
-
 .footer-input {
+    display: block;
     background: #2f303a;
     color: rgba(255, 255, 255, 0.6);
     width: 358px;
@@ -12,7 +9,10 @@
     border-radius: 4px;
     padding-left: 16px;
 }
-
+.sub-footer{
+    display: flex;
+    align-items: center;
+}
 .footer-button {
     background: var(--hovers-and-logo-color);
     color: var(--bacground-color);

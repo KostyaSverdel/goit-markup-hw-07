@@ -8,15 +8,13 @@
     background-color: rgba(0, 0, 0, 0.2);
     transition: opacity 250ms ease, visibility 250ms ease,
         background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.backdrop.is-hidden {
+&.is-hidden {
     visibility: hidden;
     opacity: 0;
     pointer-events: none;
     transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
+}
 .modal {
     position: absolute;
     top: 50%;
@@ -27,7 +25,7 @@
     background-color: var(--bacground-color);
 }
 
-.knopka-modal {
+.button-modal-close {
     position: absolute;
     display: flex;
     align-items: center;
@@ -41,14 +39,22 @@
     left: auto;
     top: 8px;
     right: 8px;
-}
 
-.knopka-modal:hover,
-.knopka-modal:focus {
+&:hover,
+&:focus {
     fill: var(--hovers-and-logo-color);
     transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
+}
+.commentary {
+display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.form-to-modal {
+    margin-top: 30px;
+}
 .modal-title {
     font-family: inherit;
     font-weight: 700;
@@ -61,7 +67,11 @@
 .modal-lab {
     display: flex;
     flex-direction: column;
-    margin-top: 30px;
+    margin-top: 10px;
+}
+.modal-lab-one{
+    display: flex;
+    flex-direction: column;
 }
 .di-imp-mod {
     display: block;
@@ -113,7 +123,6 @@
     padding-left: 16px;
     padding-top: 12px;
     resize: none;
-    margin-bottom: 20px;
     font-family: inherit;
     font-weight: 400;
     font-size: 12px;
@@ -122,7 +131,9 @@
 
 .modal-comments:focus {
     outline: none;
-    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    border-color: var(--hovers-and-logo-color);
+        outline: none;
+        transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-comments::placeholder {
@@ -142,8 +153,8 @@
     display: flex;
     width: 16px;
     height: 15px;
-    border: 1px solid;
-    border-radius: 2px;
+    border: 2px solid;
+    border-radius: 3px;
     color: var(--titel-link-color);
     cursor: pointer;
     margin-right: 10px;

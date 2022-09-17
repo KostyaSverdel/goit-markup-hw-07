@@ -1,11 +1,12 @@
 .conta-ic {
     margin-right: 10px;
+
+    &:hover,
+        &:focus {
+            color: var(--hovers-and-logo-color);
+        }
 }
 
-.conta-ic:hover,
-.conta-ic:focus {
-    color: var(--hovers-and-logo-color);
-}
 
 .social-list {
     display: flex;
@@ -30,13 +31,6 @@
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
         fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
-.social-footer-icon {
-    width: 20px;
-    height: 20px;
-    fill: var(--bacground-color);
-}
-
 .social-list-link:hover,
 .social-list-link:focus {
     background-color: var(--hovers-and-logo-color);
@@ -47,14 +41,14 @@
     fill: var(--bacground-color);
 }
 
-.footer-adr {
-    display: flex;
+.social-footer-icon {
+    width: 20px;
+    height: 20px;
+    fill: var(--bacground-color);
 }
 
-.web-footer {
-    background-color: var(--board-bacground-color);
-    padding-bottom: 60px;
-    padding-top: 60px;
+.footer-adr {
+    display: flex;
 }
 
 .address {
