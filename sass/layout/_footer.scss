@@ -1,21 +1,20 @@
 .footer-soccial {
     margin-right: 70px;
 }
-.adre-s:not(:last-child) {
+.footer-office-address:not(:last-child) {
     margin-bottom: 9px;
 }
-.adress {
+.office-address-footer {
     display: block;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 1.7;
-    /* or 171% */
     color: var(--address-bord-color);
     letter-spacing: 0.03em;
     text-decoration: none;
 }
-.footer-mg {
+.social-link-footer {
     margin-right: 93px;
 }
 

@@ -172,7 +172,7 @@ ul {
   color: var(--hovers-and-logo-color);
 }
 
-.nav-roof {
+.header-navigation {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -181,7 +181,7 @@ ul {
           align-items: center;
 }
 
-.navigation {
+.navigation-contacts-header {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -194,7 +194,7 @@ ul {
   letter-spacing: 0.02em;
   fill: currentColor;
 }
-.navigation .navigation-col {
+.navigation-contacts-header .header-navigation-list {
   display: block;
   color: var(--titel-link-color);
   padding-top: 25px;
@@ -207,25 +207,25 @@ ul {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.navigation-col {
+.header-navigation-list {
   color: var(--titel-link-color);
   text-decoration: none;
 }
-.navigation-col:hover, .navigation-col:focus {
+.header-navigation-list:hover, .header-navigation-list:focus {
   color: var(--hovers-and-logo-color);
 }
 
-.navigation-col.current {
+.header-navigation-list.current {
   color: var(--hovers-and-logo-color);
 }
 
-.navigation .navigation-col:hover::after,
-.navigation .navigation-col:focus::after {
+.navigation-contacts-header .header-navigation-list:hover::after,
+.navigation-contacts-header .header-navigation-list:focus::after {
   -webkit-transform: scale(1);
           transform: scale(1);
 }
 
-.cursor-fx::after {
+.emphasis-fixed::after {
   position: absolute;
   content: "";
   bottom: -8px;
@@ -236,7 +236,7 @@ ul {
   border-radius: 2px;
 }
 
-.cursor::after {
+.emphasis::after {
   position: absolute;
   content: "";
   bottom: -8px;
@@ -253,7 +253,7 @@ ul {
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.stipes {
+.header-navigation-stipes {
   position: relative;
 }
 
@@ -551,23 +551,22 @@ ul {
   margin-right: 70px;
 }
 
-.adre-s:not(:last-child) {
+.footer-office-address:not(:last-child) {
   margin-bottom: 9px;
 }
 
-.adress {
+.office-address-footer {
   display: block;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.7;
-  /* or 171% */
   color: var(--address-bord-color);
   letter-spacing: 0.03em;
   text-decoration: none;
 }
 
-.footer-mg {
+.social-link-footer {
   margin-right: 93px;
 }
 
