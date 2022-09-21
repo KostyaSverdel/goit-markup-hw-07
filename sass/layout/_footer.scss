@@ -1,10 +1,10 @@
 .footer-soccial {
     margin-right: 70px;
 }
-.footer-office-address:not(:last-child) {
+.footer__office-address:not(:last-child) {
     margin-bottom: 9px;
 }
-.office-address-footer {
+.office__address {
     display: block;
     font-style: normal;
     font-weight: 400;
@@ -14,7 +14,7 @@
     letter-spacing: 0.03em;
     text-decoration: none;
 }
-.social-link-footer {
+.social-link__footer {
     margin-right: 93px;
 }
 
@@ -23,7 +23,7 @@
     column-gap: 10px;
 }
 
-.social-footer-link {
+.social-footer__link {
     display: flex;
     width: 44px;
     height: 44px;
@@ -37,19 +37,21 @@
     &:focus {
             background-color: var(--hovers-and-logo-color);
         }
+
+     &.social-footer-icon,
+     &.social-footer-icon {
+        fill: var(--bacground-color);
+                }
+
+        &:hover,
+       &:focus {
+            color: var(--hovers-and-logo-color);
+        }
 }
 
 
-.social-footer-link .social-footer-icon,
-.social-footer-link .social-footer-icon {
-    fill: var(--bacground-color);
-}
 
-.social-footer-link:hover,
-.social-footer-link:focus {
-    color: var(--hovers-and-logo-color);
-}
-.footer-styles {
+.footer__styles {
     background-color: var(--board-bacground-color);
     padding-bottom: 60px;
     padding-top: 60px;
